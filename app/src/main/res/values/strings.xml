@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-  <string name="title">Tap "go" to see your response:</string>
+  <string name="title">Type something to add, then tap go:</string>
   <string name="go">Go!</string>
 </resources>
