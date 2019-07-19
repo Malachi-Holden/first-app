@@ -9,8 +9,11 @@ gradle
 make sure usb debugging is enabled on your android phone: https://www.kingoapp.com/root-tutorials/how-to-enable-usb-debugging-mode-on-android.htm
 connect the usb cable from your phone to your computer
 
+cd into the location where you want to store the app on your computer
 type the following into your terminal:
-$echo "sdk.dir=/path/to/your/sdk/directory"
+$git clone https://github.com/Malachi-Holden/first-app.git
+$cd first-app
+$echo "sdk.dir=/path/to/your/sdk/directory" >> local.properties
 $chmod 777 setup.sh
 $./setup.sh
 
